@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Document</title>
+  <link rel="stylesheet" href="styleenquiry.css">
+</head>
+
+<body>
+  <div class="header">
+    <h1>HAWKE'S BAY FOOD AND WINE COUNTRY NAPIER</h1>
+    <p><img src="foto/logo.png" alt="foto"></p>
+  </div>
+
+  <div class="menu">
+    <h1>LINK</h1>
+    <p><a href="index.html">Halaman pertama</a><br>
+      <a href="enquiry.html">Halaman Kedua</a> <br>
+      <a href="acttion.html">Halaman Ketiga</a>
+    </p>
+  </div>
+
+  <div class="sidebar">
+    <div>
+      <h1>INFOMASI</h1>
+    </div>
+
+    <div class="sidebox">
+      <h1>ALAMAT</h1>
+      <p>Negara New Zealand Napier Ibu kota Art Deco di Selandia Baru</p>
+      <p><img src="foto/negara.png" alt="foto"></p>
+    </div>
+
+    <div class="sidebox">
+      <h1>WEBSITE RESMI</h1>
+      <p><a href="https://www.hawkesbaynz.com/plan-your-stay/our-neighbourhoods/napier/">Hawke's Bay Food And Wine
+          Country Napier</a>
+      </p>
+    </div>
+  </div>
+
+  <div class="content">
+    <div class="form-container">
+      <h2>Kotak Registrasi</h2>
+      <form action="action.html" method="post">
+        <div class="form-group">
+          <label for="name">Nama Lengkap :</label>
+          <input type="text" id="name" name="name" placeholder="Masukkan nama kamu" required>
+        </div>
+        <div class="form-group">
+          <label for="mail">Email :</label>
+          <input type="email" id="mail" name="mail" placeholder="Masukkan email kamu">
+        </div>
+        <div class="form-group">
+          <label for="telephone">Telepon :</label>
+          <input type="tel" id="telephone" name="telephone" placeholder="xxx-xxxxxxxx">
+        </div>
+        <div class="form-group">
+          <label for="home">Alamat :</label>
+          <textarea id="home" name="home" placeholder="Tulis Alamat kamu"></textarea>
+        </div>
+        <div class="form-group">
+          <label for="num">Kode Pos :</label>
+          <input type="number" id="num" name="num" placeholder="xxxxx">
+        </div>
+        <div class="form-group">
+          <label for="tanya">Pertanyaan :</label>
+          <textarea id="tanya" name="tanya" placeholder="Tulis Pertanyaan kamu"></textarea>
+        </div>
+        <div class="form-group">
+          <label for="companyName">Pilihan Pertanyaan :</label>
+          <input id="companyName" name="companyName" list="companies">
+          <datalist id="companies">
+            <option value="DESKRIPSI">
+            <option value="BERSEPEDA">
+            <option value="HIBURAN">
+            <option value="KEAJAIBAN ALAM">
+            <option value="EVENT/ACARA">
+            <option value="ACARA/PERNIKAHAN">
+            <option value="MAKANAN">
+            <option value="TUR">
+            <option value="MINUMAN BAR&PUB">
+            <option value="RENTAL MOBIL">
+          </datalist>
+        </div>
+        <div class="form-group">
+          <label>Dikirim lewat apa balasan pertanyaan Anda?</label><br>
+          <input id="email" name="Method" type="checkbox" value="email">
+          <label for="email">Email</label>
+          <input id="phone" name="Method" type="checkbox" value="phone">
+          <label for="phone">Telepon</label>
+        </div>
+        <div class="form-group">
+          <input type="submit" value="Submit">
+          <input type="reset" value="Reset">
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <div class="footer">
+    <h1>Nama Lengkap : Moh. Sifauddin | Nim : 230411100190 | Mata Kuliah : Desain Pemrograman Web (WEB) | Kelas : DPW 2
+    </h1>
+  </div>
+
+</body>
+
+</html>
